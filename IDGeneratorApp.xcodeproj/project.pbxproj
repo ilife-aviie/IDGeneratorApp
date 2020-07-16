@@ -13,6 +13,10 @@
 		22095E3124C0393200F86B4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22095E3024C0393200F86B4C /* Preview Assets.xcassets */; };
 		22095E3C24C0393200F86B4C /* IDGeneratorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22095E3B24C0393200F86B4C /* IDGeneratorAppTests.swift */; };
 		22095E4724C0393200F86B4C /* IDGeneratorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22095E4624C0393200F86B4C /* IDGeneratorAppUITests.swift */; };
+		22095E5524C0397100F86B4C /* GenerateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22095E5424C0397100F86B4C /* GenerateView.swift */; };
+		22095E5724C039AF00F86B4C /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22095E5624C039AF00F86B4C /* ReaderView.swift */; };
+		22095E5924C039D500F86B4C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22095E5824C039D500F86B4C /* DataModel.swift */; };
+		22095E5B24C039EF00F86B4C /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22095E5A24C039EF00F86B4C /* DataViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		22095E4224C0393200F86B4C /* IDGeneratorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDGeneratorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22095E4624C0393200F86B4C /* IDGeneratorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDGeneratorAppUITests.swift; sourceTree = "<group>"; };
 		22095E4824C0393200F86B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22095E5424C0397100F86B4C /* GenerateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateView.swift; sourceTree = "<group>"; };
+		22095E5624C039AF00F86B4C /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		22095E5824C039D500F86B4C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		22095E5A24C039EF00F86B4C /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				22095E2924C0392F00F86B4C /* IDGeneratorAppApp.swift */,
 				22095E2B24C0392F00F86B4C /* ContentView.swift */,
+				22095E5424C0397100F86B4C /* GenerateView.swift */,
+				22095E5624C039AF00F86B4C /* ReaderView.swift */,
+				22095E5824C039D500F86B4C /* DataModel.swift */,
+				22095E5A24C039EF00F86B4C /* DataViewModel.swift */,
 				22095E2D24C0393200F86B4C /* Assets.xcassets */,
 				22095E3224C0393200F86B4C /* Info.plist */,
 				22095E2F24C0393200F86B4C /* Preview Content */,
@@ -259,6 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22095E5924C039D500F86B4C /* DataModel.swift in Sources */,
+				22095E5524C0397100F86B4C /* GenerateView.swift in Sources */,
+				22095E5B24C039EF00F86B4C /* DataViewModel.swift in Sources */,
+				22095E5724C039AF00F86B4C /* ReaderView.swift in Sources */,
 				22095E2C24C0392F00F86B4C /* ContentView.swift in Sources */,
 				22095E2A24C0392F00F86B4C /* IDGeneratorAppApp.swift in Sources */,
 			);
