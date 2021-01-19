@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var dataModel = DataViewModel()
     
     var body: some View {
         NavigationView {
@@ -19,6 +18,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(dataModel: DataViewModel())
+        ContentView()
     }
 }
